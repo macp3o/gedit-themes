@@ -1,8 +1,8 @@
 # Gedit Themes
 
-No visual clutter for increased readability.
+Themes with no visual clutter for increased readability.
 
-## Why?
+## Why Better Themes?
 Gedit default themes use too many colors for syntax highlighting. creating visual clutter and negatively affecting readability.
 
 The two minimalistic themes in this package are designed to only use four primary color styles  for syntax highlighting, eliminating clutter and benefiting readability.
