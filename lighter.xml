@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="lighter" _name="Lighter" version="1.0">
+
+	<author>Paulo Machado</author>
+	<_description>Lighter color scheme</_description>
+
+
+	<!-- Global Settings -->
+	<style name="text" foreground="#312a2b" background="#ffffff"/>
+	<style name="selection" foreground="#111111" background="#fffac0"/>
+	<style name="line-numbers" foreground="#555753" background="#2c2d2f"/>
+	<style name="right-margin" foreground="#eeeeec" background="#888a85"/>
+
+	<style name="cursor"	foreground="#333300"/>
+	<style name="current-line" background="#555753"/>
+	<style name="draw-spaces"	foreground="#888a85"/>
+
+	<!-- Identifiers -->
+	<style name="def:identifier"	use-style="text"/>
+
+	<!-- Statements, types, preprocessor -->
+	<style name="def:statement"	foreground="#cc3300"/>
+	<style name="def:type"	use-style="def:statement"/> 
+	<style name="def:preprocessor"		use-style="def:statement"/> 
+
+	<!-- Constants -->
+	<style name="def:constant" foreground="#660066"/>
+	<style name="def:string" use-style="def:constant"/>
+	<style name="def:special-char" use-style="def:constant"/>
+	<style name="def:special-constant" use-style="def:constant"/>
+	<style name="def:floating-point" use-style="def:constant"/>
+
+	<!-- Comments -->
+	<style name="def:comment" foreground="#2660a0"/>
+	<style name="def:shebang" use-style="def:comment"/>
+	<style name="def:doc-comment-element" use-style="def:comment"/>
+
+	<!-- Others -->
+	<style name="def:error" foreground="#fefefe" background="#aa3300"/>
+	<style name="def:note" foreground="#fefefe" background="#ee9933"/>
+	<style name="search-match" foreground="#eeeeec" 	background="#4e9a06"/>
+
+	<style name="bracket-match"	foreground="#c17d11" bold="true"/>
+	<style name="bracket-mismatch" foreground="#eeeeec" background="#cc0000" bold="true"/>
+  
+	<!-- Language specific -->
+	<style name="diff:added-line" foreground="#edd400"/>
+	<style name="diff:removed-line"	foreground="#729fcf"/>
+	<style name="diff:changed-line"	foreground="#ad7fa8"/>
+	<style name="diff:diff-file" foreground="#8ae234" bold="true"/> 
+	<style name="diff:location" foreground="#8ae234"/> 
+	<style name="diff:special-case" foreground="#white" bold="true"/>
+
+	<style name="latex:display-math" foreground="#5c3566"/>
+	<style name="latex:command" foreground="#8ae234" bold="true"/>
+	<style name="latex:include"	use-style="def:preprocessor"/>
+
+</style-scheme>
+
